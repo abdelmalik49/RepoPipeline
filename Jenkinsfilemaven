@@ -1,0 +1,16 @@
+pipeline {
+    agent {docker {
+    }image 'node:14-alpine'
+    }
+    stages{
+        stages ('build'){
+            steps {
+                steps {
+                    sh 'npm --version'
+                }
+            }
+            
+        }
+
+    }
+}
