@@ -3,14 +3,11 @@ pipeline {
     }image 'node:14-alpine'
     }
     stages{
-        stages ('build'){
+        stage ('build'){
             steps {
-                steps {
                     sh 'npm --version'
                 }
             }
-            
-        }
+          }
 
     }
-}
