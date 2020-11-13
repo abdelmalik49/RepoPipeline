@@ -39,7 +39,7 @@ pipeline {
         stage('TestParam'){
             when {
                 //si choix=one
-                expression { params.CHOICE== 'One' }
+                expression { params.CHOICE== 'Afficher' }
                     }
             steps {
                     echo "Hello ${params.PERSON}"
