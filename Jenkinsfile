@@ -34,8 +34,8 @@ pipeline {
         stage('WH') {
             steps {
                 echo 'toto' //
+            }
         }
-
         stage('TestParam'){
             when {
                 //si choix=one
@@ -49,13 +49,13 @@ pipeline {
                
                 }
             
-            }
-
         }
 
     }
-        
 
 }
+        
+
+
 
 
