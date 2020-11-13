@@ -7,7 +7,7 @@ pipeline {
         string (name: 'PERSON',defaultValue:'Mr JENKINS', description: 'Who should I say hello to?')
         text (name: 'BIOGRAPHY',defaultValue:'', description: 'Enter some information?')
         booleanParam (name: 'TOGGLE',defaultValue:true, description: 'Toggle this value')
-        choice (name: 'CHOICE',choices: ['Afficher'], ['Silent']), description: 'pick smthg')
+        choice (name: 'CHOICE',choices: ['Afficher'], ['Silent'], description: 'pick smthg')
         password (name: 'MDP',defaultValue:'SECRET', description: 'ENTER A PASSWORD')
     }
     stages {
