@@ -17,7 +17,7 @@ pipeline {
              }
         stage('webHook') {
             steps {
-                echo 'webhook oK' //
+                echo 'webhook vraiment oK' //
              }
         }
 
