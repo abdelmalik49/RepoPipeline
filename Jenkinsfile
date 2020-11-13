@@ -15,6 +15,10 @@ pipeline {
             steps {
                 echo 'Deploy' //
              }
+        stage('webHook') {
+            steps {
+                echo 'webhook oK' //
+             }
         }
 
     }
